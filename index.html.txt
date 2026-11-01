@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <title>Моя таблица</title>
+  <style>
+    body { font-family: Arial, sans-serif; padding: 2rem; background: #f9f9f9; }
+    h1 { color: #2c3e50; }
+    table { border-collapse: collapse; width: 100%; max-width: 800px; margin-top: 1rem; background: white; box-shadow: 0 2px 6px rgba(0,0,0,0.1); }
+    th, td { border: 1px solid #ccc; padding: 10px 12px; text-align: left; }
+    th { background: #3498db; color: white; }
+    tr:nth-child(even) { background: #f4f4f4; }
+  </style>
+</head>
+<body>
+  <h1>Таблица данных</h1>
+  <table>
+    <thead>
+      <tr>
+        <th>Название</th>
+        <th>Цена</th>
+        <th>Статус</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr><td>Товар 1</td><td>100 ₽</td><td>В наличии</td></tr>
+      <tr><td>Товар 2</td><td>250 ₽</td><td>Нет на складе</td></tr>
+      <tr><td>Товар 3</td><td>99 ₽</td><td>Под заказ</td></tr>
+    </tbody>
+  </table>
+</body>
+</html>
+
